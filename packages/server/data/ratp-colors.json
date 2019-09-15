@@ -1,0 +1,41 @@
+{
+  "colors": {
+    "vert-jade-ratp": "#00c4b3",
+    "bleu-ratp": "#050d9e",
+    "acacia": "#b6bd00",
+    "azur": "#003ca6",
+    "blanc": "#ffffff",
+    "bleu-opaline": "#659fb3",
+    "bouton-d-or": "#ffcd00",
+    "brun-taupe": "#716761",
+    "cobalt": "#7ba3dc",
+    "coquelicot": "#e2231a",
+    "elysee": "#777779",
+    "emeraude": "#00945d",
+    "fuchsia": "#e37ed1",
+    "iris": "#62259d",
+    "lilas": "#e19bdf",
+    "marron": "#704b1c",
+    "menthe": "#6eca97",
+    "noir": "#000000",
+    "ocre": "#c9910d",
+    "olive": "#837902",
+    "orange": "#ff7e2e",
+    "parme": "#cf009e",
+    "perle": "#cdc3bb",
+    "pervenche": "#6ec4e8",
+    "prairie": "#00ae41",
+    "rose": "#fa9aba",
+    "sapin": "#007852",
+    "saumon": "#ff8671",
+    "vert-kaki": "#97935c"
+  },
+  "lines": {
+    "1": {
+      "colors": {
+        "foreground": "noir",
+        "background": "bouton-d-or"
+      }
+    }
+  }
+}
