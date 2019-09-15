@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "lib/",
+    "module": "commonjs",
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": false,
+    "target": "esnext",
+    "moduleResolution": "node",
+    "stripInternal": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noEmitOnError": false,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "__tests__"
+  ]
+}
