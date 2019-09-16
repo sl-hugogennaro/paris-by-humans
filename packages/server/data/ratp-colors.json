@@ -1,41 +1,118 @@
-{
-  "colors": {
-    "vert-jade-ratp": "#00c4b3",
-    "bleu-ratp": "#050d9e",
-    "acacia": "#b6bd00",
-    "azur": "#003ca6",
-    "blanc": "#ffffff",
-    "bleu-opaline": "#659fb3",
-    "bouton-d-or": "#ffcd00",
-    "brun-taupe": "#716761",
-    "cobalt": "#7ba3dc",
-    "coquelicot": "#e2231a",
-    "elysee": "#777779",
-    "emeraude": "#00945d",
-    "fuchsia": "#e37ed1",
-    "iris": "#62259d",
-    "lilas": "#e19bdf",
-    "marron": "#704b1c",
-    "menthe": "#6eca97",
-    "noir": "#000000",
-    "ocre": "#c9910d",
-    "olive": "#837902",
-    "orange": "#ff7e2e",
-    "parme": "#cf009e",
-    "perle": "#cdc3bb",
-    "pervenche": "#6ec4e8",
-    "prairie": "#00ae41",
-    "rose": "#fa9aba",
-    "sapin": "#007852",
-    "saumon": "#ff8671",
-    "vert-kaki": "#97935c"
+[
+  {
+    "name": "vert-jade-ratp",
+    "value": "#00c4b3"
   },
-  "lines": {
-    "1": {
-      "colors": {
-        "foreground": "noir",
-        "background": "bouton-d-or"
-      }
-    }
+  {
+    "name": "bleu-ratp",
+    "value": "#050d9e"
+  },
+  {
+    "name": "acacia",
+    "value": "#b6bd00"
+  },
+  {
+    "name": "azur",
+    "value": "#003ca6"
+  },
+  {
+    "name": "blanc",
+    "value": "#ffffff"
+  },
+  {
+    "name": "bleu-opaline",
+    "value": "#659fb3"
+  },
+  {
+    "name": "bouton-d-or",
+    "value": "#ffcd00"
+  },
+  {
+    "name": "brun-taupe",
+    "value": "#716761"
+  },
+  {
+    "name": "cobalt",
+    "value": "#7ba3dc"
+  },
+  {
+    "name": "coquelicot",
+    "value": "#e2231a"
+  },
+  {
+    "name": "elysee",
+    "value": "#777779"
+  },
+  {
+    "name": "emeraude",
+    "value": "#00945d"
+  },
+  {
+    "name": "fuchsia",
+    "value": "#e37ed1"
+  },
+  {
+    "name": "iris",
+    "value": "#62259d"
+  },
+  {
+    "name": "lilas",
+    "value": "#e19bdf"
+  },
+  {
+    "name": "marron",
+    "value": "#704b1c"
+  },
+  {
+    "name": "menthe",
+    "value": "#6eca97"
+  },
+  {
+    "name": "noir",
+    "value": "#000000"
+  },
+  {
+    "name": "ocre",
+    "value": "#c9910d"
+  },
+  {
+    "name": "olive",
+    "value": "#837902"
+  },
+  {
+    "name": "orange",
+    "value": "#ff7e2e"
+  },
+  {
+    "name": "parme",
+    "value": "#cf009e"
+  },
+  {
+    "name": "perle",
+    "value": "#cdc3bb"
+  },
+  {
+    "name": "pervenche",
+    "value": "#6ec4e8"
+  },
+  {
+    "name": "prairie",
+    "value": "#00ae41"
+  },
+  {
+    "name": "rose",
+    "value": "#fa9aba"
+  },
+  {
+    "name": "sapin",
+    "value": "#007852"
+  },
+  {
+    "name": "saumon",
+    "value": "#ff8671"
+  },
+  {
+    "name": "vert-kaki",
+    "value": "#97935c"
   }
-}
+]
