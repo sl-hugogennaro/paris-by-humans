@@ -15,9 +15,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Paris by Humans</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <!-- <link rel="stylesheet" href="/styles/dev.css"> -->
+  <link rel="stylesheet" href="/styles/ratp-colors.css">
+  <link rel="stylesheet" href="/styles/style.css">
 </head>
 
 <body>
+  <div id="map"></div>
+  <h2 class="title">Favorites</h2>
+  <div id="favorites">
+    <div class="favorites-list">
+      <div class="favorite">
+        <div class="fav-recap">
+          <span class="fav-line icon has-background-line-4 has-text-white">4</span>
+          <span class="fav-name">Name</span>
+        </div>
+        <div class="fav-info is-flex">
+          <div class="fav-status">
+            <span class="icon is-medium has-text-info">
+              <i class="fas fa-lg fa-info-circle"></i>
+            </span>
+          </div>
+          <div class="fav-more">Ok</div>
+        </div>
+      </div>
+      <div class="favorite">
+        <div class="fav-recap">
+          <span class="fav-line icon has-background-line-2 has-text-white">2</span>
+          <span class="fav-name">Name</span>
+        </div>
+        <div class="fav-info is-flex">
+          <div class="fav-status">
+            <span class="icon is-medium has-text-info">
+              <i class="fas fa-lg fa-info-circle"></i>
+            </span>
+          </div>
+          <div class="fav-more">Ok</div>
+        </div>
+      </div>
+      <div class="favorite">
+        <div class="fav-recap">
+          <span class="fav-line icon has-background-line-1">1</span>
+          <span class="fav-name">Name</span>
+        </div>
+        <div class="fav-info is-flex">
+          <div class="fav-status">
+            <span class="icon is-medium has-text-warning">
+              <i class="fas fa-lg fa-exclamation-triangle"></i>
+            </span>
+          </div>
+          <div class="fav-more">Travaux en cours dans la station</div>
+        </div>
+      </div>
+      <div class="favorite">
+        <div class="fav-recap">
+          <span class="fav-line icon has-background-line-14 has-text-white">14</span>
+          <span class="fav-name">Name</span>
+        </div>
+        <div class="fav-info is-flex">
+          <div class="fav-status">
+            <span class="icon is-medium has-text-info">
+              <i class="fas fa-lg fa-info-circle"></i>
+            </span>
+          </div>
+          <div class="fav-more">Ok</div>
+        </div>
+      </div>
+      <div class="favorite">
+        <div class="fav-recap">
+          <span class="fav-line icon has-background-line-12 has-text-white">12</span>
+          <span class="fav-name">Name</span>
+        </div>
+        <div class="fav-info is-flex">
+          <div class="fav-status">
+            <span class="icon is-medium has-text-danger">
+              <i class="fas fa-lg fa-exclamation-circle"></i>
+            </span>
+          </div>
+          <div class="fav-more">Fermée pour travaux</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+    crossorigin=""></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script src="/app.js"></script>
 </body>
 
