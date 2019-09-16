@@ -6,6 +6,9 @@ module.exports = {
   context: path.resolve(__dirname, 'src'),
   entry: './app.ts',
   devtool: 'cheap-module-source-map',
+  externals: {
+    "leaflet": "Leaflet"
+  },
   output: {
     path: path.resolve(__dirname, 'dist/'),
     library: 'app',

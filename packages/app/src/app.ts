@@ -1,7 +1,5 @@
 declare var L;
 import { Map } from "leaflet";
-// import L from "leaflet";
-
 
 const map: Map = L.map('map', {
   zoomControl: false

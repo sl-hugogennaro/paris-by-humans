@@ -36,7 +36,5 @@
     "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.8.0"
   },
-  "dependencies": {
-    "leaflet": "^1.5.1"
-  }
+  "dependencies": {}
 }
